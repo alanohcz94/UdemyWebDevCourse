@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dice!</title>
+	<link href="dice.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container" style="text-align: center; background-color: #013220;">
+		<th><h1>Place Your Bets !</h1></th>
+		<button>Roll Me !</button>
+		<table id="main" style="margin: auto;">
+			<tr>
+				<th></th>
+				<th id="drawHeader"></th>
+				<th></th>
+			</tr>
+			<tr>
+				<td id="p1" style="height: 500px; width:250px; background-color: transparent;"></td>
+				<td style="width: 68%; background-color: transparent;">
+					<table style="margin: auto;">
+						<tr>
+							<th>Player 1</th>
+							<th></th>
+							<th>Player 2</th>
+						</tr>
+						<tr>
+							<td id="d1"></td>
+							<td style="background-color: transparent; width: 50px; height: 50px;"></td>
+							<td id="d2"></td>
+						</tr>
+					</table>
+				</td>
+				<td id="p2" style="height: 500px; width:250px; background-color: transparent;"></td>
+			</tr>
+		</table>
+		<h2 id="total">Total:</h2>
+	</div>
+</body>
+</html>
+
+<script type="text/javascript" src="./dice.js"></script>

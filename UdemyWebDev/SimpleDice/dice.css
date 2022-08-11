@@ -1,0 +1,31 @@
+td {
+	background-color: maroon; 
+	width: 150px; 
+	height: 150px; 
+	color: white; 
+	font-size: 100px;
+}
+
+th {
+	color: white; 
+	font-size: 30px;
+}
+
+h1 {
+	color: #FFFF00; 
+	font-size: 100px;
+}
+
+h2 {
+	color: white;
+	font-size: 100px;
+}
+
+button {
+	font-size: 50px;
+}
+
+#p1, #p2, #drawHeader {
+	font-size: 100px;
+}
+
