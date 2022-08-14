@@ -4,7 +4,10 @@ const https = require('https');
 
 app.use(express.urlencoded({ extended: true }));
 
+const homepageContent = ""
+
 app.get('/', (req, res)=>{
+	res.send('<h1>Home</h1>')
 	/*
 		// perform a GET request to an API call
 		const url = <full path> including https://
@@ -23,7 +26,6 @@ app.get('/', (req, res)=>{
 		})
 
 	*/
-
 })
 
 
