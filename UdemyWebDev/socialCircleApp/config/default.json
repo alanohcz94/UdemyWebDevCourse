@@ -1,0 +1,5 @@
+/* This file can store global values and be used throughout the app */
+{
+	"mongoURI": "mongodb+srv://admin:admin@devconnecter.x1axgpx.mongodb.net/?retryWrites=true&w=majority",
+	"jwtToken": "myadminsecret" 
+}
